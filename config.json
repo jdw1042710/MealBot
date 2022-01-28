@@ -1,5 +1,5 @@
 {
-    "DISCORD_TOKEN" : "OTMwMDk3OTcwMzc5MTAwMTYw.Ydw7PA.YZ8ftTYf2j5IgwIGQpOuKZ6mSd0",
-    "YOUTUBE_KEY" : "AIzaSyAK9nGwLG8BWBgrEXi9L48_tTpA4wjqJJE",
+    "DISCORD_TOKEN" : "[[Discord Token]]",
+    "YOUTUBE_KEY" : "[[Youtube API key]]",
     "PREFIX" : "+"
 }
