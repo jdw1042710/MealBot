@@ -83,7 +83,7 @@ const play = (message, args) =>{
             audio_player: audioPlayer,
             songs: []
         }
-        queue_constructor.audio_player.addListener("stateChange", (old_stage, new_state) => {
+        queue_constructor.audio_player.addListener("stateChange", (old_state, new_state) => {
             if (!(new_state.status === AudioPlayerStatus.Idle)) {return;}
             const song = getNextSong(message.guild);
             if (!song) {return stop(message);}
